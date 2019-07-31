@@ -14,7 +14,7 @@ $ composer require jc91715/lattice -vvv
 ```
 use Jc91715\Lattice\Lattice;
 
-$str="hello world";
+$str="helloworld";
 $lattice = new Lattice($str,5);
 
 echo $lattice->getResult();
