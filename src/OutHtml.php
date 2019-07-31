@@ -9,9 +9,9 @@ class OutHtml implements OutInterface
     public function outAll($positions,$sections,$spreadSections,$charRowCount)
     {
         $str="<table border='1' width='100%' style='text-align: center'>";
-        foreach (array_chunk($positions,16*$n) as $row){
+        foreach (array_chunk($positions,16*$charRowCount) as $row){
 
-            $str.=$this->outRow($row,$sections,$spreadSections);
+            $str.=$this->outRow($row,$spreadSections);
         }
         $str .= "</table>";
         return $str;
