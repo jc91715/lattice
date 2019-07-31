@@ -19,7 +19,7 @@ $lattice = new Lattice($str,5);
 
 echo $lattice->getResult();
 ```
-
+![](./66f12d61f7986cc0d98258932eb19a7.png)
 ## Contributing
 
 You can contribute in one of three ways:
