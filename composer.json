@@ -1,0 +1,17 @@
+{
+    "name": "jc91715\/lattice",
+    "description": "A Php Lattice",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "jc91715",
+            "email": "jc370234915@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Jc91715\\Lattice\\": "src"
+        }
+    }
+}
